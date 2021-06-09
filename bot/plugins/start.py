@@ -15,13 +15,13 @@ async def start(c, m):
         )
     
     await m.reply_text(
-        text=f"Namaskaaram😜 {m.from_user.first_name}.\n\nI'm a simple Screenshot Generator Bot. I can provide screenshots from your video files with out downloading the entire file (almost instantly). For more details check /help.",
+        text=f"Hello {m.from_user.first_name}.\n\nI'm a simple Screenshot Generator Bot. I can provide screenshots from your video files with out downloading the entire file (almost instantly). For more details check /help.",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Source Code', url='https://github.com/prgofficial/SS-Bot'),
-                    InlineKeyboardButton('Support Group', url='https://t.me/moviesonlybotupdates')
+                    InlineKeyboardButton('Updates', url='https://telegram.dog/CoderzHEX'),
+                    InlineKeyboardButton('Devoloper', url='https://t.me/Maxxcoderz')
                 ],
             ]
         )
